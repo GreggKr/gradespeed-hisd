@@ -1,7 +1,7 @@
 const gs = require('./index')
 
-const username = "uname"
-const password = "pwd"
+const username = "student\\s1535208"
+const password = "03312001"
 
 // test('Invalid username & pass', () => {
 //     expect.assertions(1)
@@ -24,6 +24,6 @@ const password = "pwd"
 // })
 
 gs(username, password)
-    .then(returnArr => {
-        console.log(returnArr);
-    });
+    // .then(returnArr => {
+    //     console.log(returnArr);
+    // });
