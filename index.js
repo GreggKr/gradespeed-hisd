@@ -6,8 +6,8 @@ const parseRaw = require('./lib/parseRaw')
 const gradespeed_hisd = (username, password) => (
   new Promise((resolve, reject) => {
     fetchRaw(username, password)
-    .then(bodyArr => resolve(parseRaw(bodyArr)))
-    .catch(reject)
+      .then(bodyArr => resolve(parseRaw(bodyArr)))
+      .catch(reject)
   })
 )
 
